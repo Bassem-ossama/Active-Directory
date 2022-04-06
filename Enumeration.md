@@ -53,8 +53,8 @@ Get-DomainPolicy
 ~~~
 (Get-DomainPolicy -domain <target-domain>)."system access" // ADModule
 ~~~
-\
-**Computers** 
+
+## Computers
 ~~~
 Get a list of computers in the current Domain
 Get-NetComputer
@@ -68,8 +68,8 @@ Get-ADComputer -Filter 'OperatingSystem -like "*Server 2016*"' -Properties Opera
 Get-ADComputer -Filter * -Properties DNSHostName | %{Test-Connection -Count 1 -ComputerName $_DNSHostName}
 Get-ADComputer -Filter * -Properties *
 ~~~
-\
-**USers** 
+
+## Users
 ~~~
 Get list of all properties for users in the current Domain
 Get-UserProperty
@@ -117,8 +117,8 @@ Get-LoggedonLocal -ComputerName <computer-name>
 // needs admin rights and remote registry on target 
 Get-LastLoggedOn -ComputerName <computer-name>
 ~~~
-\
-**Shares** 
+
+## Shares
 ~~~
 Find shares on hosts in current Domain
 Invoke-ShareFinder -Verbose
@@ -137,8 +137,8 @@ Get-NetFileServer -Verbose   // Looks for high value targets - where lots of use
 ~~~
 Invoke-FileFinder -Verbose  // Need read/write privs on a share
 ~~~
-\
-**Groups** 
+
+## Groups
 ~~~
 Get all groups containing the word ‘admin’ in the Group name
 Get-NetGroup
