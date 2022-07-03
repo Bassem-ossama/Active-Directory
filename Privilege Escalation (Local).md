@@ -1,7 +1,7 @@
 # Script tools
 ### Always Focussing on Service issues✔
-
- **1-PowerUp**
+## 1-PowerUp
+ **PowerUp**
 
 https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc
 
@@ -58,21 +58,23 @@ Get-ModifiableService -Verbose
 ~~~
 net localgroup Administrators
 ~~~
-\
-**2-BeRoot:** 
+
+## 2-BeRoot
+**BeRoot:** 
 https://github.com/AlessandroZ/BeRoot 
 ~~~
 .\beRoot.exe
 ~~~
-\
-**3– Privesc:**
+
+## 3-Privesc
+**Privesc:**
  https://github.com/enjoiz/Privesc 
 ~~~
 . .\privesc.ps1
 Invoke-PrivEsc
 ~~~
-\
-**Scripts**
+
+## 4-Scripts
 \
 **1-Creates processes with other users logon tokens**👀
 
