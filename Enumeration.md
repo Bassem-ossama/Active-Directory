@@ -6,7 +6,7 @@
 * [Groups](#Groups)
 * [Domain Trusts](#Domain-Trusts)
 * [Forest trust](#Forest-trust)
-* [Organizational Unit (OU)](#POrganizational-Unit-(OU))
+* [Organizational Unit (OU)](#Organizational-Unit-(OU))
 * [Group Policy](#Group-Policy)
 
 ## Domain
