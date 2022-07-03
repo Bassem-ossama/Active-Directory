@@ -6,7 +6,7 @@
 * [Groups](#Groups)
 * [Domain Trusts](#Domain-Trusts)
 * [Forest trust](#Forest-trust)
-* [Organizational Unit (OU)](#Organizational-Unit-(OU))
+* [Organizational Unit (OU)](#Organizational-Unit-OU)
 * [Group Policy](#Group-Policy)
 
 ## Domain
@@ -247,7 +247,7 @@ Get-NetForestDomain –Forest eurocorp.local
 (Get-ADForest).Domains
 ~~~
 
-## Organizational Unit (OU)
+## Organizational Unit OU
 
 **Get OUs in a domain**
 ~~~
