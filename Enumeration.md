@@ -4,10 +4,10 @@
 * [Users](#Users) 
 * [Shares](#Shares)
 * [Groups](#Groups)
-* [Domain Trusts](#DomainTrusts)
-* [Forest trust](#Foresttrust)
-* [Organizational Unit (OU)](#POrganizationalUnit(OU))
-* [Group Policy](#GroupPolicy)
+* [Domain Trusts](#Domain-Trusts)
+* [Forest trust](#Forest-trust)
+* [Organizational Unit (OU)](#POrganizational-Unit-(OU))
+* [Group Policy](#Group-Policy)
 
 ## Domain
 \
