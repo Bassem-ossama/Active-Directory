@@ -1,4 +1,21 @@
+## General
+* [Powercat](#powercat)
+* [Add  user to local admin or domain group](#Add-user-to-local-admin-or-domain-group)
+* [Execute commands on a machine remotely](#Execute-commands-on-a-machine-remotely)
+* [Powercat](#powercat)
+* [Powercat](#powercat)
+* [Powercat](#powercat)
+* [Powercat](#powercat)
+* [Powercat](#powercat)
+* [Powercat](#powercat)
+* [Powercat](#powercat)
+* [Powercat](#powercat)
+* [Powercat](#powercat)
+* [Powercat](#powercat)
+* [Powercat](#powercat)
+* 
 # Powercat
+```
 -l Listen for a connection. [Switch]
 \
 -c Connect to a listener. [String]\
@@ -19,3 +36,12 @@
 -ge Generate Encoded Payload. [Switch]\
 -h Print the help message. [Switch]\
 powercat -l -v -p 443 -t 100
+```
+# Add user to local admin or domain group
+```
+net localgroup Administrators <DOMAIN>\<USER> /add
+```
+```
+Add-DomainGroupMember -Identity "PRODUCTIONMANAGERS" -Members usfun\pastudent131
+```
+# Execute commands on a machine remotely
