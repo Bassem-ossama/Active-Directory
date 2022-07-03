@@ -1,6 +1,15 @@
+# Enumeration
+* [Domain](#Domain)
+* [Computers](#Computers)
+* [Users](#Users) 
+* [Shares](#Shares)
+* [Groups](#Groups)
+* [Domain Trusts](#DomainTrusts)
+* [Forest trust](#Foresttrust)
+* [Organizational Unit (OU)](#POrganizationalUnit(OU))
+* [Group Policy](#GroupPolicy)
 
-
-**Domain**
+## Domain
 \
 **Get Current Domain**
 ~~~
